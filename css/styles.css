@@ -143,6 +143,17 @@ img {
   gap: 50px;
 }
 
+.header-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--main-txt-cl);
+}
+.header-icon {
+  fill: currentColor;
+}
+
 /* Hero section */
 .hero {
   background: var(--dark-bg-cl);
